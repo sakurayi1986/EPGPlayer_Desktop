@@ -17,7 +17,7 @@ endorsed by the EPGPlayer author.
 Built by [`scripts/build-static.sh`](scripts/build-static.sh) /
 [`scripts/static/build-deps.sh`](scripts/static/build-deps.sh), which pin the versions below.
 The exact sources used for a release are published alongside it as
-`EPGPlayer_Desktop-third-party-sources.tar.xz` ([`scripts/pack-sources.sh`](scripts/pack-sources.sh)).
+`EPGPlayer_Desktop-third-party-sources.tar.gz` ([`scripts/pack-sources.sh`](scripts/pack-sources.sh)).
 License texts are included in the release archive under `licenses/`.
 
 | Component | Version | License | Source |

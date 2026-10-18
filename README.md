@@ -64,7 +64,7 @@ All release builds run in Docker; no toolchain is needed on the host besides Doc
 ```sh
 scripts/build-static.sh   # first run 30–60 min (builds FFmpeg, mpv, ...), cached afterwards
 # -> dist/EPGPlayer_Desktop-linux-x86_64.tar.gz
-scripts/pack-sources.sh   # -> dist/EPGPlayer_Desktop-third-party-sources.tar.xz
+scripts/pack-sources.sh   # -> dist/EPGPlayer_Desktop-third-party-sources.tar.gz
 ```
 
 Builds static libmpv v0.41.0, FFmpeg n8.0.1 (with libaribcaption and VAAPI), libplacebo and libass
