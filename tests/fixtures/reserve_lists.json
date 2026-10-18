@@ -1,0 +1,22 @@
+{
+ "normal": [
+  {
+   "reserveId": 1,
+   "programId": 40010100002,
+   "ruleId": 1
+  },
+  {
+   "reserveId": 2,
+   "programId": 40010300001
+  }
+ ],
+ "conflicts": [],
+ "skips": [
+  {
+   "reserveId": 3,
+   "programId": 40010100003,
+   "ruleId": 1
+  }
+ ],
+ "overlaps": []
+}

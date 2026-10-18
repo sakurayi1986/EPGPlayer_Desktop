@@ -1,0 +1,120 @@
+[
+ {
+  "channel": {
+   "id": 400101,
+   "serviceId": 101,
+   "networkId": 4,
+   "name": "Sample BS 1",
+   "hasLogoData": false,
+   "channelType": "BS",
+   "type": 1,
+   "remoteControlKeyId": 10
+  },
+  "programs": [
+   {
+    "id": 40010100001,
+    "channelId": 400101,
+    "startAt": 1800000000000,
+    "endAt": 1800001800000,
+    "isFree": true,
+    "name": "Morning News [字]",
+    "description": "Sample description for Morning News [字]",
+    "extended": "◇Sample\nExtended information",
+    "genre1": 0,
+    "subGenre1": 0,
+    "videoType": "mpeg2",
+    "videoResolution": "1080i",
+    "videoStreamContent": 1,
+    "videoComponentType": 179,
+    "audioSamplingRate": 48000,
+    "audioComponentType": 3
+   },
+   {
+    "id": 40010100002,
+    "channelId": 400101,
+    "startAt": 1800001800000,
+    "endAt": 1800005400000,
+    "isFree": true,
+    "name": "Nature Documentary [字][再]",
+    "description": "Sample description for Nature Documentary [字][再]",
+    "extended": "◇Sample\nExtended information",
+    "genre1": 8,
+    "subGenre1": 0,
+    "videoType": "mpeg2",
+    "videoResolution": "1080i",
+    "videoStreamContent": 1,
+    "videoComponentType": 179,
+    "audioSamplingRate": 48000,
+    "audioComponentType": 3
+   },
+   {
+    "id": 40010100003,
+    "channelId": 400101,
+    "startAt": 1800005400000,
+    "endAt": 1800008100000,
+    "isFree": true,
+    "name": "Anime Hour",
+    "description": "Sample description for Anime Hour",
+    "extended": "◇Sample\nExtended information",
+    "genre1": 7,
+    "subGenre1": 0,
+    "videoType": "mpeg2",
+    "videoResolution": "1080i",
+    "videoStreamContent": 1,
+    "videoComponentType": 179,
+    "audioSamplingRate": 48000,
+    "audioComponentType": 3
+   }
+  ]
+ },
+ {
+  "channel": {
+   "id": 400103,
+   "serviceId": 103,
+   "networkId": 4,
+   "name": "Sample BS 2",
+   "hasLogoData": false,
+   "channelType": "BS",
+   "type": 1,
+   "remoteControlKeyId": 10
+  },
+  "programs": [
+   {
+    "id": 40010300001,
+    "channelId": 400103,
+    "startAt": 1800000000000,
+    "endAt": 1800007200000,
+    "isFree": true,
+    "name": "Classic Movie [字]",
+    "description": "Sample description for Classic Movie [字]",
+    "extended": "◇Sample\nExtended information",
+    "genre1": 6,
+    "subGenre1": 0,
+    "videoType": "mpeg2",
+    "videoResolution": "1080i",
+    "videoStreamContent": 1,
+    "videoComponentType": 179,
+    "audioSamplingRate": 48000,
+    "audioComponentType": 3
+   },
+   {
+    "id": 40010300002,
+    "channelId": 400103,
+    "startAt": 1800007200000,
+    "endAt": 1800008700000,
+    "isFree": true,
+    "name": "Weather",
+    "description": "Sample description for Weather",
+    "extended": "◇Sample\nExtended information",
+    "genre1": 0,
+    "subGenre1": 0,
+    "videoType": "mpeg2",
+    "videoResolution": "1080i",
+    "videoStreamContent": 1,
+    "videoComponentType": 179,
+    "audioSamplingRate": 48000,
+    "audioComponentType": 3
+   }
+  ]
+ }
+]

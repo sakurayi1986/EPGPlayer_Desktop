@@ -1,0 +1,21 @@
+[package]
+name = "epgplayer-desktop"
+version = "0.1.0"
+edition = "2024"
+description = "EPGPlayer For Desktop: an EPGStation client for Linux and Windows"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/sakurayi1986/EPGPlayer_Desktop"
+
+[dependencies]
+anyhow = "1.0.104"
+chrono = { version = "0.4.45", default-features = false, features = ["clock", "std"] }
+directories = "6.0.0"
+eframe = "0.37.0"
+egui_extras = { version = "0.37.0", features = ["all_loaders", "http"] }
+image = { version = "0.25.10", default-features = false, features = ["png", "jpeg"] }
+libmpv2 = "6.0.0"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+sys-locale = "0.3.2"
+toml = "1.1.8"
+ureq = "3.4.2"
