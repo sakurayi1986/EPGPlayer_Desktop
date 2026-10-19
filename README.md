@@ -26,6 +26,20 @@ Playback opens in a separate mpv window with mpv's on-screen controller and keyb
 (`Space` pause, `f` fullscreen, `j` cycle subtitles, `i` stats).
 Selecting another channel while the player is open switches it in place.
 
+## Screenshots
+
+Live TV
+
+![Live TV](screenshot/standard_2k.png)
+
+Live TV on a second server for BS 4K (a separate EPGStation backed by a SHARP 4S-C00AS1 tuner)
+
+![Live TV, BS 4K server](screenshot/4k_with_sharp_4s_c00as1.png)
+
+Program guide, with the server switcher open
+
+![Program guide](screenshot/4k_program_schedule.png)
+
 ## Download and run
 
 Download from [Releases](../../releases).
