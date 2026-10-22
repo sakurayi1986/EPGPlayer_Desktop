@@ -59,6 +59,12 @@ fn run(rx: Receiver<Cmd>, status: &Mutex<Status>, repaint: &dyn Fn()) -> libmpv2
     let mpv = Mpv::with_initializer(|init| {
         init.set_property("vo", "gpu")?;
         init.set_property("hwdec", "auto-safe")?;
+        // 默认画质设置下，UHD 630 渲染 4K 60p（缩小 + BT.2020 色域转换）跟不上，每秒丢约 26 帧；
+        // fast 档不丢帧。缩小算法换回 mitchell，避免 bilinear 缩小 4K 时闪烁，实测仍不丢帧。
+        // profile 要先设，后面的选项才能覆盖它
+        init.set_property("profile", "fast")?;
+        init.set_property("dscale", "mitchell")?;
+        init.set_property("correct-downscaling", true)?;
         init.set_property("force-window", "yes")?;
         init.set_property("osc", true)?;
         init.set_property("input-default-bindings", true)?;
