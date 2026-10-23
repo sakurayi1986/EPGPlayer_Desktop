@@ -12,7 +12,7 @@ use crate::i18n::{tr, Lang};
 use crate::player::Player;
 use crate::trf;
 
-const CHANNEL_TYPES: [&str; 4] = ["GR", "BS", "CS", "SKY"];
+const CHANNEL_TYPES: [&str; 5] = ["GR", "BS", "CS", "SKY", "BS4K"];
 const RECORDED_PAGE: u64 = 50;
 const BROADCASTING_REFRESH: Duration = Duration::from_secs(60);
 

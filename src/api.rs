@@ -262,11 +262,12 @@ impl Client {
     pub fn schedules(&self, start_at: i64, end_at: i64, channel_type: &str) -> Result<Vec<Schedule>> {
         let flag = |t: &str| t == channel_type;
         self.get(&format!(
-            "/api/schedules?startAt={start_at}&endAt={end_at}&isHalfWidth=true&GR={}&BS={}&CS={}&SKY={}",
+            "/api/schedules?startAt={start_at}&endAt={end_at}&isHalfWidth=true&GR={}&BS={}&CS={}&SKY={}&BS4K={}",
             flag("GR"),
             flag("BS"),
             flag("CS"),
-            flag("SKY")
+            flag("SKY"),
+            flag("BS4K")
         ))
     }
 
